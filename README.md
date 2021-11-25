@@ -1,5 +1,6 @@
 # CubeCell-Board-Helium
 CubeCell Board HTCC-AB01 Helium Integration Lora LoraWAN
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/cubecell-board.png)
 ---
 Heltec Cubecell Series Arduino Development Environment
 &nbsp;
