@@ -8,6 +8,7 @@ Heltec Cubecell Series Arduino Development Environment
 For more details, please refer to **[CubeCell Documents Page](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/index.html).**
 
 &nbsp;
+- [Helium DevDocs](https://github.com/helium/devdocs)
 ## Instructions
 
 The currently supported ASR650x chip product models are:
@@ -27,7 +28,6 @@ https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.3.0/pa
 - [CubeCell documents](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/index.html)
 - [PSoC 4100 family datasheet (MCU of ASR6501/2)](https://resource.heltec.cn/download/CubeCell/PSOC_4_PSOC_4100_FAMILY_DATASHEET_PROGRAMMABLE_SYSTEM-ON-CHIP.pdf)
 - [PSoC 4100S Plus Registers Technical Reference](https://resource.heltec.cn/download/CubeCell/PSoC_4100S_Plus_Registers_Technical_Reference_Manual.pdf)
-
 
 # CubeCell Board Helium
 
