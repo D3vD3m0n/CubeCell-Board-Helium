@@ -20,8 +20,15 @@ The currently supported ASR650x chip product models are:
 
 https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.3.0/package_CubeCell_index.json
 ![](https://heltec-automation-docs.readthedocs.io/en/latest/_images/035.png)
+![](https://heltec.org/wp-content/uploads/2020/07/AB01-02.png)
+![](https://heltec.org/wp-content/uploads/2020/07/AB01-01.png)
 
-# CubeCell-Helium-Mapper
+- [CubeCell documents](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/index.html)
+- [PSoC 4100 family datasheet (MCU of ASR6501/2)](https://resource.heltec.cn/download/CubeCell/PSOC_4_PSOC_4100_FAMILY_DATASHEET_PROGRAMMABLE_SYSTEM-ON-CHIP.pdf)
+- [PSoC 4100S Plus Registers Technical Reference](https://resource.heltec.cn/download/CubeCell/PSoC_4100S_Plus_Registers_Technical_Reference_Manual.pdf)
+
+
+# CubeCell Board Helium
 
 This is a version of the CubeCell demo app with a few tweaks to help the SAT aquisition and shows the information on the OLED display with no 
 Satelite Lock Updates happen every 2 minutes with a satelite lock location updates whils moving updates every 10 seconds whilst stopped update every 60 seconds with a sleep in between.
