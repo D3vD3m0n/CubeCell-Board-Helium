@@ -1,6 +1,6 @@
 # Heltec CubeCell Board
 
-![](../../.gitbook/assets/cubecell-board.png)
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/cubecell-board.png)
 
 ## Introduction
 
@@ -63,7 +63,7 @@ To install, open your Arduino IDE:
 1. Navigate to **\(File &gt; Preferences\), \(Arduino &gt; Preferences\) on MacOS.**
 2. Find the section at the bottom called **Additional Boards Manager URLs:**
 
-![](../../.gitbook/assets/cubecell-board-support-json.png)
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/cubecell-board-support-json.png)
 
 1. Add this URL in the text box:
 
@@ -79,7 +79,7 @@ Next, to install this board support package:
 2. Search for  **CubeCell Dev-boards**
 3. Select the newest version and click Install
 
-![](../../.gitbook/assets/cubecell-board-support-search.png)
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/cubecell-board-support-search.png)
 
 ### Manual updates to the Heltec runtime libraries
 
@@ -185,17 +185,17 @@ To create a new Arduino sketch, open your Arduino IDE, \(**File &gt; New\).** Ne
 
 Next we'll need to fill in the AppEUI\(msb\), DevEUI\(msb\), and AppKey\(msb\), in the sketch, which you can find on the device details page on Console. Be sure to use the formatting buttons to match the endianess and formatting required for the sketch, shown below.
 
-![](../../.gitbook/assets/cubecell-console-details.png)
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/cubecell-console-details.png)
 
 At the top of the sketch, replace the three **FILL\_ME\_IN** fields, with the matching field from Console, example shown below.
 
-![](../../.gitbook/assets/cubecell-console-keys.png)
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/cubecell-console-keys.png)
 
 ### Upload Sketch
 
 We're finally ready to upload our sketch to the board. In the Arduino IDE, click the right arrow button, or navigate to \(**Sketch &gt; Upload\),** to build and upload your new firmware to the board. You should see something similar to the image below at the bottom of your Arduino IDE, when the upload is successful.
 
-![](../../.gitbook/assets/cubecell-arduino-upload.png)
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/cubecell-arduino-upload.png)
 
 ### Using HTCC-AB02S Board With GPS Capable Sketch <a id="HTCC-AB02S-with-GPS"></a>
 
@@ -232,10 +232,10 @@ This will prevent the CubeCell from reducing the Data Rate over time and allow y
 
 When your firmware update completes, the board will reset, and begin by joining the network. Let's use the Serial Monitor in the Arduino IDE to view the output from the board. We first need to select the serial port again, but this time it will be a **different port** than the one we selected to communicate with the bootloader. Once again, navigate to \(**Tools &gt; Port: COM\#/ttyACM\#**\), but make sure the serial device, either COM\# or ttyACM\#, is different! Next navigate to \(**Tools &gt; Serial Monitor**\), you should begin to see output similar to below.
 
-![](../../.gitbook/assets/cubecell-arduino-serial.png)
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/cubecell-arduino-serial.png)
 
 Now let's head back to [Helium Console](https://console.helium.com/) and look at our device page, you should see something similar to the screenshot below.
 
-![](../../.gitbook/assets/heltec-wifi-lora-console-events.png)
+![](https://github.com/helium/devdocs/raw/master/.gitbook/assets/heltec-wifi-lora-console-events.png)
 
 Congratulations! You have just transmitted data on the Helium network! The next step is to learn how to use your device data to build applications, visit our Integrations docs [here](../../console/integrations/).
